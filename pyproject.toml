@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+testpaths = ["tst"]
+pythonpath = ["src"]
+
+[tool.pyright]
+extraPaths = ["src"]
+pythonVersion = "3.12"
